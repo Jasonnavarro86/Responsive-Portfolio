@@ -203,7 +203,7 @@ i:link{
         
 i:visited{
     color: #4aaaa5;
-    text-decoration: none;
+    
 }
 i:hover{
      color:#B1B1B1;
@@ -237,6 +237,8 @@ i:hover{
     position: absolute;
     bottom: 0;
     width:100%; 
+    height: 50px;
+    padding-top:7px;
 }
 
 /* contact section */
@@ -299,14 +301,81 @@ input[type=submit] {
 /* responsive */
 
 @media only screen and (max-width:980px){
+    .container{
+        max-width: 700px;
+      }
+    
+        #mainContainer{
+            padding-top: 120px;
+            
+            
+        }
+    
+        .mainSection{
+            max-width: 380px;
+            margin-left:0px;
+            display: inline-block;
+            margin-bottom: 30px;
+            
+        }
+    
+        .sideBar{
+            float: right;
+            max-width: 280px;
+            margin-left: 0px;
+        }
+
+        .myPic{
+            float: none;
+            width: 100%;
+        }
+
+        
+       
+        .portPic{
+            max-width: 380px;
+           
+        }
+
 
 }
 
 @media only screen and (max-width:768px){
-    
+   
+
+  .container{
+    max-width: 738px;
+  }
+
+    #mainContainer{
+        padding-top: 120px;
+        
+    }
+
+    .mainSection{
+        max-width: 738px;
+        margin-left:0px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .sideBar{
+        float: left;
+        max-width: 738px;
+        margin-left: 0px;
+    }
+    .pusher{
+        display: none;
+    }
+    .portPic{
+        max-width: 310px;
+        margin: 10px 5px;
+    }
+
+
 }
 
-@media only screen and (max-width:620px){
+@media only screen and (max-width:640px){
     #masterHead{
         position: static;
     }
@@ -330,7 +399,7 @@ input[type=submit] {
     }
 
     .mainSection{
-        max-width: 590px;
+        max-width: 610px;
         margin-left:15px;
         display: inline-block;
         margin-bottom: 30px;
@@ -338,14 +407,14 @@ input[type=submit] {
 
     .sideBar{
         float: left;
-        max-width: 590px;
+        max-width: 610px;
         margin-left: 15px;
     }
     .pusher{
         display: none;
     }
     .portPic{
-        max-width: 590px;
+        max-width: 610px;
         margin: 10px 5px;
     }
 
