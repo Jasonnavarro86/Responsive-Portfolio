@@ -1,0 +1,277 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 2.0;
+    background-image: url("http://rhyva.info/wp-content/uploads/2016/09/modern-style-white-marble-texture-seamless-30-free-high-quality-marble-textures-naldz-graphics-5.jpg");
+    
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+    clear: both;
+}
+
+p{
+    color:#878282;
+}
+
+.mainSection p{
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+
+#masterHead{
+
+background-color: #FFFFFF;
+clear: both;
+z-index: 99;
+position: fixed;
+width: 100%;
+text-decoration: none;
+overflow: auto;
+margin: 0 0 30px;
+top:0;
+border-bottom: 2px solid silver ;
+
+
+}
+
+
+ 
+
+.logo {
+    float: left;
+    font-size: 27px;
+    background-color: #4aaaa5;
+    height: 87px;
+    width:250px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+   
+}
+
+nav{
+    float: right;
+    line-height: 65px;
+    font-size: 20px;
+    padding: 10px;
+    color:gray;
+    
+}
+
+.navBar{
+text-decoration: none;
+padding: 10px;
+font-size: 17px;
+
+}
+.navBor{
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+
+#mainContainer{
+padding-top:120px;
+
+overflow:auto;
+
+
+}
+
+
+.mainSection{ 
+    width: 100%;
+    max-width: 650px; 
+    margin: 0px 0 50px;
+    float: left;
+    background-color: white;
+    padding: 30px; 
+    overflow: auto;
+    border: 1px solid #BAB8B8;
+
+
+} 
+
+
+.myPic{
+    
+    float: left;
+    
+    width: 210px;
+    
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.mainSection p{
+    line-height: 2.2;
+}
+
+
+.mainSection 
+h1
+{
+    
+    border-bottom: 3px solid #E3E3E3;
+    font-size: 30px;
+    
+
+}
+.sideBar
+h1{
+    border-bottom: 3px solid #E6E6E6;
+}
+
+
+.sideBar{
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    background-color: white;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: teal;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #BAB8B8;
+
+}
+
+
+
+.logo:link{
+color: white;
+}
+
+.logo:visited{
+    color: white;
+    }
+.logo:hover{
+    color:#332D2D;
+}
+
+.navBar:link{
+    color: #868383;
+}
+        
+.navBar:visited{
+    color: #817E7E;
+}
+.navBar:hover{
+     color:#373030;
+}
+
+footer{
+    background-color: #595959;
+    border-top:5px solid #4aaaa5;
+    height:150px;
+}
+
+footer p{
+    text-align: center;
+    line-height: 130px;
+color: white;
+}
+
+.pusher{
+    height:45px;
+    margin-bottom: 25px;
+    
+}
+
+i{
+    padding: 10px;
+    color: #49AAA4;
+}
+ 
+
+i:link{
+    color: #49AAA4;
+}
+        
+i:visited{
+    color: #4aaaa5;
+}
+i:hover{
+     color:#B1B1B1;
+}
+
+/* responsive */
+
+@media only screen and (max-width:980px){
+
+}
+
+@media only screen and (max-width:768px){
+    
+}
+
+@media only screen and (max-width:620px){
+    #masterHead{
+        position: static;
+    }
+
+    nav{
+        display: inline-block;
+        width: 100%;
+        height:auto;
+        text-align: center;
+    }
+
+    .logo{
+        width:100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    #mainContainer{
+        padding-top: 0px;
+        
+    }
+
+    .mainSection{
+        max-width: 590px;
+        margin-left:15px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .sideBar{
+        float: left;
+        max-width: 590px;
+       margin-left: 15px;
+    }
+    .pusher{
+        display: none;
+    }
+        
+}
